@@ -1,3 +1,6 @@
 files:
   - source: /*.json
+    ignore:
+      - /package.json
+      - /package-lock.json
     translation: /lang/%two_letters_code%
